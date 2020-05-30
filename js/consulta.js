@@ -8,7 +8,7 @@
 
     const consultar = () => {
         resultado.innerHTML = "Espere...";
-        client.get(location.href + "/consulta.php", ponerDatos, ponerTexto);
+        client.get(location.href + "/consultas/consulta.php", ponerDatos, ponerTexto);
     };
 
     const ponerDatos = (texto) => {
